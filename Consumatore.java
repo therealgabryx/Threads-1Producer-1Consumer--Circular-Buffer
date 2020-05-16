@@ -1,7 +1,7 @@
 import java.util.Random;
 
 class Consumatore extends Thread {
-  Semaforo pieno, vuoto, mutexC; // mutexP: Mutex betw. consumers
+  Semaforo pieno, vuoto, mutexC; // mutexC: Mutex betw. consumers
 
   Random att = new Random(); // rnd waiting time
 
